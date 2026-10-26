@@ -6,6 +6,7 @@
     xmlns:local="clr-namespace:AppLibertadoresHAS"
     xmlns:partidas="clr-namespace:AppLibertadoresHAS.Views.Partidas"
     xmlns:jogadores="clr-namespace:AppLibertadoresHAS.Views.Jogadores"
+    xmlns:usuarios="clr-namespace:AppLibertadoresHAS.Views.Usuarios"
     Title="AppLibertadoresHAS">
 
     <ShellContent
@@ -19,6 +20,10 @@
     <ShellContent
         Title="Jogadores"
         ContentTemplate="{DataTemplate jogadores:ListagemJogadorView}" Route="listagemjogador" />
+
+    <ShellContent
+        Title="Usuários"
+        ContentTemplate="{DataTemplate usuarios:LocalizacaoView}" Route="usuarios" />
 </Shell>
 
     
